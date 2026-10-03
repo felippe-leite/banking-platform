@@ -1,0 +1,1 @@
+-- Fase 3 — Flyway: cria transaction e ledger_entry, com unique na idempotency key.

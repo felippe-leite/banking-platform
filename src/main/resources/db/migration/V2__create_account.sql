@@ -1,0 +1,1 @@
+-- Fase 2 — Flyway: cria a tabela account (FK para customer).

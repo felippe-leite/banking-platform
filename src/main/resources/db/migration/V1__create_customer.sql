@@ -1,0 +1,1 @@
+-- Fase 2 — Flyway: cria a tabela customer. Migrations são versionadas e nunca editadas depois de aplicadas.

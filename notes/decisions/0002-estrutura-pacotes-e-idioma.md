@@ -29,7 +29,10 @@ com.felippe.banking
   É uma versão simplificada de arquitetura hexagonal / clean architecture.
 - **Combina com o monolito modular do ADR 0001:** cada feature é um candidato
   natural a módulo (ou serviço) no futuro.
-- Pastas só são criadas quando a primeira classe delas existir.
+- ~~Pastas só são criadas quando a primeira classe delas existir.~~
+  **Revisto em 2026-10-03:** o esqueleto completo foi criado de uma vez para
+  servir de mapa de aprendizado. Arquivos ainda não implementados contêm só o
+  `package` e um comentário `// Fase N — responsabilidade`. Ver `notes/architecture.md`.
 
 **Código em inglês; notas e conversas em português**
 - Padrão do mercado corporativo, inclusive em bancos brasileiros.
