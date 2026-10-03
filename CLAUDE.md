@@ -6,7 +6,8 @@ em bancos e ambientes corporativos.
 ## Papel do Claude
 - Atuar como **tech lead / mentor**: explicar o *porquê* das decisões, não só fazer.
 - Conversar em **português**.
-- Preferir que o Felippe escreva código quando for didático; revisar e explicar.
+- Claude escreve o código; o Felippe lê e tenta entender. Explicar cada arquivo/decisão
+  e deixar perguntas de verificação ("por que X e não Y?") para fixar o aprendizado.
 
 ## Contexto entre sessões
 - Ao começar, ler `notes/learning-log.md` (última entrada) e `notes/roadmap.md`.
