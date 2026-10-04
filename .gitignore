@@ -31,3 +31,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Local project guidance and learning notes ###
+/AGENTS.md
+/CLAUDE.md
+/notes/
