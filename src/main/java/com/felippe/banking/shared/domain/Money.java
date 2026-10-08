@@ -7,7 +7,8 @@ import java.util.Objects;
 /**
  * Valor monetário imutável, sempre com 2 casas decimais.
  *
- * <p>Nunca arredonda em silêncio: um valor com mais de 2 casas é rejeitado.
+ * <p>Nunca arredonda em silêncio: valores que exigem arredondamento são rejeitados.
+ * Zeros adicionais são aceitos, pois podem ser removidos sem alterar o valor.
  */
 public record Money(BigDecimal amount) {
 
