@@ -1,1 +1,21 @@
-# Fase 2 — Docker Compose: sobe o PostgreSQL local para desenvolvimento.
+# Credenciais exclusivas do ambiente local de aprendizado.
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: banking
+      POSTGRES_USER: banking
+      POSTGRES_PASSWORD: banking_local
+    ports:
+      - "127.0.0.1:5432:5432"
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U banking -d banking"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+
+volumes:
+  postgres-data:
